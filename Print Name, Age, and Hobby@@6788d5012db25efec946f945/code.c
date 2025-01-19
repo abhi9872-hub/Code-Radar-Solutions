@@ -3,9 +3,9 @@
 
 
 int main() {
-    char str[];
+    char str[100];
     int a;
-    char str2[];
+    char str2[100];
     scanf("%s",&str);
     scanf("%d",&a);
     scanf("%s",&str2);
