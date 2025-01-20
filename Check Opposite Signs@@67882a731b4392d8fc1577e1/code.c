@@ -10,7 +10,7 @@ if(a==a && b==-b){
     printf("True");
 }
 else if(a==-a && b==b){
-    printf("True")
+    printf("True");
 }
 
 else{
