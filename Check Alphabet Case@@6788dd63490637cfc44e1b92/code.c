@@ -3,6 +3,6 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    (a>=97 && a<=122)?printf("Lowercase"):printf("Uppercase");
+    (ch>=97 && ch<=122)?printf("Lowercase"):printf("Uppercase");
     return 0;
 }
