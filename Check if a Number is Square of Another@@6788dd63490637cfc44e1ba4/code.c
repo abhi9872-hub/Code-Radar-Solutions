@@ -3,6 +3,6 @@
 int main() {
    int a,b;
    scanf("%d %d",&a,&b);
-   (a*2==b)?printf("Yes"):printf("No");
+   (b*2==a)?printf("Yes"):printf("No");
     return 0;
 }
