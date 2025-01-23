@@ -5,7 +5,7 @@ int main() {
    scanf("%d",&a);
    (a>0)?printf("Positive"):printf("Negative");
    if(a==0){
-    printf("Zero")
+    printf("Zero");
    }
     return 0;
 }
