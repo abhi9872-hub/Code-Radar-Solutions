@@ -7,7 +7,7 @@ switch(ch){
     case A:
     printf("Excellent");
     break;
-    
+
     case B:
     printf("Good");
     break;
@@ -23,6 +23,14 @@ switch(ch){
     case F:
     printf("Fail");
     break;
+
+    default:
+    printf("Invalid month number");
+    
+
+
+
+
 }
     return 0;
 }
