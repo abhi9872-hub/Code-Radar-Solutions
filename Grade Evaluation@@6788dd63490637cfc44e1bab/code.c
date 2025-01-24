@@ -25,7 +25,7 @@ switch(ch){
     break;
 
     default:
-    printf("Invalid month number");
+    printf("Invalid grade");
     
 
 
