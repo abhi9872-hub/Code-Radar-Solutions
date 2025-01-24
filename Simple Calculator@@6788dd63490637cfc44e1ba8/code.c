@@ -1,22 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
     int a,b;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
 switch(ch){
-    case'+':
+    case '+':
     printf("%d",a+b);
     break;
+
     case '-':
     printf("%d",a-b);
     break;
+
     case '*':
     printf("%d",a*b);
     break;
+
     case '/':
     printf("%f",a/b);
     break;
+
 }
     return 0;
 }
