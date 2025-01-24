@@ -2,7 +2,7 @@
 
 int main() {
     char ch;
-    scanf("%C",&ch);
+    scanf("%c",&ch);
 switch(ch){
     case A:
     printf("Excellent");
