@@ -3,6 +3,13 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    (ch>=97 && ch<=122)?printf("Lowercase"):printf("Uppercase");
-    return 0;
+   if (ch>=97 && ch<=122){
+    printf("Lowercase")}
+    else if(ch>!97 && ch<!122){
+        printf("Not an alphabat");
+    }
+    else {
+printf("Uppercase");
+        }
+            return 0;
 }
