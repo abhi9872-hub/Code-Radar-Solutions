@@ -7,10 +7,10 @@ int main() {
     printf("Lowercase");
     }
     else if(ch>!97 && ch<!122){
-        printf("Not an alphabat");
+        printf("Uppercase");
     }
     else {
-printf("Uppercase");
+printf("Not an alphabet");
         }
             return 0;
 }
