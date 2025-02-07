@@ -7,6 +7,11 @@ int prime(int n){
 }
 int main() {
     int prime=0;
-    int n
+    int n,t;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d",&n);
+        printf("%d\n",prime(n));
+    }
     return 0;
 }
