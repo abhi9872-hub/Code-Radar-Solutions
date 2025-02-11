@@ -9,5 +9,5 @@ int main(){
         }
         printf(" ");
     }
-    retrurn 0;
+    return 0;
 }
