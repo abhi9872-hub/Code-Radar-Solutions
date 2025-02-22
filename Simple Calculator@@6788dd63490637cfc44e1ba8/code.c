@@ -3,22 +3,28 @@
 int main() {
     int a,b;
     char ch;
-    scanf("%f %f %c",&a,&b,&ch);
+    scanf("%d %d %c",&a,&b,&ch);
 switch(ch){
     case '+':
-    printf("%f",a+b);
+    printf("%d",a+b);
     break;
 
     case '-':
-    printf("%f",a-b);
+    printf("%d",a-b);
     break;
 
     case '*':
-    printf("%f",a*b);
+    printf("%d",a*b);
     break;
 
     case '/':
-    printf("%f",a/b);
+    if(b!=0){
+        printf("%d",a/b)
+    }
+    else{
+        printf("Division by zero error")
+    }
+    
     break;
 
 }
