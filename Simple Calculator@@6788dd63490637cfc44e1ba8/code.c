@@ -22,7 +22,7 @@ switch(ch){
         printf("%d",a/b);
     }
     else{
-        printf("Division by zero error");
+        printf("error");
     }
     
     break;
