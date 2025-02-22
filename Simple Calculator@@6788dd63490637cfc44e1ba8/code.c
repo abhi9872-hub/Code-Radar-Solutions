@@ -19,10 +19,10 @@ switch(ch){
 
     case '/':
     if(b!=0){
-        printf("%d",a/b)
+        printf("%d",a/b);
     }
     else{
-        printf("Division by zero error")
+        printf("Division by zero error");
     }
     
     break;
