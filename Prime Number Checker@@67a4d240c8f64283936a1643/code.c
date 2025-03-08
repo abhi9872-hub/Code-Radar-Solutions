@@ -17,7 +17,7 @@ int main() {
     while(t--){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isprime(n));
+        printf("%d\n",isprime(num));
     }
     return 0;
 }
