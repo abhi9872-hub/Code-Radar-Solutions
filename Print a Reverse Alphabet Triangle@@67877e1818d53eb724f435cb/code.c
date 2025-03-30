@@ -1,12 +1,11 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a=65;
     int N;
     scanf("%d",&N);
     for(int i=N;i>=1;i--){
         for(int j=1;j<=i;j++){
-            printf("%c ",'a'+j);
+            printf("%c ",'A'+j);
             
         }
         printf("\n");
