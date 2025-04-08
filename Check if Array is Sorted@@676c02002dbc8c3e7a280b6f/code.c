@@ -18,6 +18,8 @@ void printarray(int arr[],int n){
     printf("\n");
 }
 
+
+
 int main(){
     int n;
     scanf("%d",&n);
@@ -28,12 +30,12 @@ int main(){
 
     bubblesort(arr,n);
     printarray(arr,n);
-    if(arr[i]==arr[k]){
-        printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
-    }
+   if(arr[i]==arr[k]){
+    printf("Sorted");
+   }
+   else{
+    printf("Not Sorted");
+   }
 
 }
 
