@@ -11,11 +11,20 @@ int bubblesort(int arr[],int n){
     }
 }
 
-void printarray(int arr[],int n){
-    for(int k=0;k<n;k++){
-        printf("%d ",arr[k]);
+// void printarray(int arr[],int n){
+//     for(int k=0;k<n;k++){
+//         printf("%d ",arr[k]);
+//     }
+//     printf("\n");
+// }
+
+void issorted(int arr,int n){
+    for(int i=0;i<n-1;i++){
+        if(arr[i]>arr[i+1]){
+            return o;
+        }
+        return 1;
     }
-    printf("\n");
 }
 
 
@@ -27,17 +36,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-    if(arr[i]==arr[k]){
+
+    bubblesort(arr,n);
+    printarray(arr,n);
+   if(issorted(arr,n)){
     printf("Sorted");
    }
    else{
     printf("Not Sorted");
-   }}
-
-    bubblesort(arr,n);
-    printarray(arr,n);
-   
+   }
 
 }
 
