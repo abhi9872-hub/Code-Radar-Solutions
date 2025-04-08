@@ -27,15 +27,16 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
-    bubblesort(arr,n);
-    printarray(arr,n);
-   if(arr[i]==arr[k]){
+    if(arr[i]==arr[k]){
     printf("Sorted");
    }
    else{
     printf("Not Sorted");
    }
+
+    bubblesort(arr,n);
+    printarray(arr,n);
+   
 
 }
 
